@@ -437,6 +437,12 @@ the ground should fill the background.
     ``100``. Don't decrease this *Far* property too much, or objects in the
     distance will start disappearing.
 
+    Ensure the Camera3D *Current* property is checked ``on``. 
+    Such that Godot Editor would render the scene in the Debug mode. 
+
+
+
+
 |image10|
 
 Test your scene and you should be able to move in all 8 directions and not glitch through the floor!
